@@ -23,7 +23,7 @@ spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 ## @type: DataSource
-## @args: [database = "db_youtube_raw", table_name = "raw_statistics", transformation_ctx = "datasource0"]
+## @args: [database = "de_youtube_raw", table_name = "raw_statistics", transformation_ctx = "datasource0"]
 ## @return: datasource0
 ## @inputs: []
 ##############################################################
@@ -60,5 +60,5 @@ datasink4 = glueContext.write_dynamic_frame.from_options(frame = df_final_output
 ##############################################################
 job.commit()
 
-############################### Added by Darshil ###############################
+##############################################################
 job.commit()
