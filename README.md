@@ -14,20 +14,13 @@ This project demonstrates how to use data engineering techniques to analyze YouT
 - SQL
 - AWS CLI
 - AWS Services
-
-1.Athena
-
-2.Glue
-
-3.Redshift
-
-4.S3
-
-5.IAM
-
-6.Lambda
-
-7.Quicksight
+1. Athena
+2. Glue
+3. Redshift
+4. S3
+5. IAM
+6. Lambda
+7. Quicksight
 
 ## Dataset Used
 
